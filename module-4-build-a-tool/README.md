@@ -29,7 +29,7 @@ We are going to build it **with Claude**, not alone. Our job is to direct, revie
 From the repo root:
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-4-build-a-tool
+cd /workspaces/msa-spe5spa-claude-workshop/module-4-build-a-tool
 claude
 ```
 
@@ -149,5 +149,5 @@ These four habits separate an analyst who uses Claude well from one who uses it 
 You have a cleaning tool. Move on:
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-5-automate-report
+cd /workspaces/msa-spe5spa-claude-workshop/module-5-automate-report
 ```

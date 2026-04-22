@@ -2,7 +2,7 @@
 
 **Master of Sport Analytics, La Trobe University**
 **Subject:** SPE5SPA - Sports Project A
-**Session:** Week 8, Wednesday AM (27 April 2026)
+**Session:** Week 8, Wednesday AM (29 April 2026)
 
 Welcome. Over the next ninety minutes (and a bit more in your own time) you will go from "I have never touched a terminal" to "I have my own Telegram bot that reads a GPS export, runs quality checks, and produces a standardised PDF training-load report for my coach."
 
@@ -52,7 +52,7 @@ Modules 1-5 run live during the 90-minute session. Modules 6-7 are walked throug
 ## Folder structure
 
 ```
-msa-claude-code-workshop/
+msa-spe5spa-claude-workshop/
 ├── .devcontainer/         # Codespace build config
 ├── CLAUDE.md              # Shared project instructions Claude reads first
 ├── data/                  # Synthetic scenario datasets

@@ -34,7 +34,7 @@ We use Typst (not Word, not Quarto) for three reasons:
 ## Open the skill
 
 ```
-cat /workspaces/msa-claude-code-workshop/skills/weekly-load-report/SKILL.md
+cat /workspaces/msa-spe5spa-claude-workshop/skills/weekly-load-report/SKILL.md
 ```
 
 Read it. It has three parts:
@@ -50,7 +50,7 @@ Read it. It has three parts:
 Start Claude Code from the repo root (skills are always resolved from project root):
 
 ```
-cd /workspaces/msa-claude-code-workshop
+cd /workspaces/msa-spe5spa-claude-workshop
 claude
 ```
 
@@ -102,5 +102,5 @@ You have gone from "Pat sends me a file" to "the system sends a PDF". The only t
 That is Module 6.
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-6-telegram-bot
+cd /workspaces/msa-spe5spa-claude-workshop/module-6-telegram-bot
 ```

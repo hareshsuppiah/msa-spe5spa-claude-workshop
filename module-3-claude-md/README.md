@@ -15,7 +15,7 @@ Think of it as an onboarding document for a new team member - except you write i
 Open the file at the repo root:
 
 ```
-cat /workspaces/msa-claude-code-workshop/CLAUDE.md
+cat /workspaces/msa-spe5spa-claude-workshop/CLAUDE.md
 ```
 
 You will see the project-level CLAUDE.md we wrote for Northfield FC. It tells Claude:
@@ -50,7 +50,7 @@ The skeleton asks you to describe:
 Save the file. Then start a Claude Code session inside this folder:
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-3-claude-md
+cd /workspaces/msa-spe5spa-claude-workshop/module-3-claude-md
 claude
 ```
 
@@ -94,5 +94,5 @@ You now know:
 Move on:
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-4-build-a-tool
+cd /workspaces/msa-spe5spa-claude-workshop/module-4-build-a-tool
 ```

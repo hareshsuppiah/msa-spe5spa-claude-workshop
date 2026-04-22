@@ -168,5 +168,5 @@ You have a live Telegram bot. That is remarkable. Twenty minutes ago you had nev
 Module 7 extends this with a second bot for coach-facing comms. It is optional and runs as post-class extension material.
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-7-multi-bot
+cd /workspaces/msa-spe5spa-claude-workshop/module-7-multi-bot
 ```

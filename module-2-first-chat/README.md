@@ -100,7 +100,7 @@ If any of the above is still fuzzy, ask the person next to you or raise a hand. 
 ## Done
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-3-claude-md
+cd /workspaces/msa-spe5spa-claude-workshop/module-3-claude-md
 ```
 
 Open `module-3-claude-md/README.md`.

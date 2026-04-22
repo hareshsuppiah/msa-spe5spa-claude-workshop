@@ -17,7 +17,7 @@ In your Codespace, look at the bottom of the VS Code window. You should see a pa
 You should see a prompt that looks something like:
 
 ```
-vscode ➜ /workspaces/msa-claude-code-workshop $
+vscode ➜ /workspaces/msa-spe5spa-claude-workshop $
 ```
 
 That is the shell. The `$` is where your typing appears.
@@ -32,7 +32,7 @@ pwd
 
 `pwd` = **print working directory**. The terminal always has a "current location" in the filesystem. Every command you type runs from that location. Think of it as which folder a file explorer has open.
 
-You should see `/workspaces/msa-claude-code-workshop`.
+You should see `/workspaces/msa-spe5spa-claude-workshop`.
 
 ## 3. What is in this folder?
 
@@ -64,7 +64,7 @@ cd ..
 Two dots means "parent". One dot means "here". To jump back to the repo root from anywhere:
 
 ```
-cd /workspaces/msa-claude-code-workshop
+cd /workspaces/msa-spe5spa-claude-workshop
 ```
 
 ## 5. Peek at a file
@@ -125,7 +125,7 @@ This tells you what files you have changed since the last saved version. If you 
 You can move around, peek at files, and search. That is enough.
 
 ```
-cd /workspaces/msa-claude-code-workshop/module-2-first-chat
+cd /workspaces/msa-spe5spa-claude-workshop/module-2-first-chat
 cat README.md
 ```
 
