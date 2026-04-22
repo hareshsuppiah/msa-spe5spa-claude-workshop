@@ -1,0 +1,34 @@
+# R outputs
+*.RData
+*.Rhistory
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated workshop outputs
+*.html
+*.pdf
+*.png
+cleaned_*.csv
+*_report.*
+
+# Typst cache
+.typst-cache/
+
+# Claude Code local state
+.claude/
+!.claude/settings.json
+!.claude/skills/
+
+# Bot tokens and secrets (NEVER commit these)
+.env
+.env.*
+*.token
+telegram-token.txt
+
+# OS files
+.DS_Store
+Thumbs.db

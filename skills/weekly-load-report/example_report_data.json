@@ -1,0 +1,14 @@
+{
+  "week_label": "20-26 April 2026",
+  "squad": "U23",
+  "summary_paragraph": "The U23 squad completed three pitch sessions this week (recovery, MD-3 high intensity, MD-1 activation) totalling 362.4km across 22 players. Squad total distance is up 4.2% on last week, driven by a fuller high-intensity day on Wednesday. Two players (NF014, NF021) crossed the red-flag threshold for weekly change and should be reviewed with S&C before Friday.",
+  "rows": [
+    {"player_id": "NF014", "position": "WM", "sessions": 3, "total_distance_km": 24.8, "hsr_m": 2140, "sprint_m": 870, "delta_pct": 22.4, "flag": "red"},
+    {"player_id": "NF009", "position": "CM", "sessions": 3, "total_distance_km": 23.6, "hsr_m": 1980, "sprint_m": 720, "delta_pct": 8.1, "flag": "none"},
+    {"player_id": "NF021", "position": "FW", "sessions": 3, "total_distance_km": 22.1, "hsr_m": 1820, "sprint_m": 780, "delta_pct": -21.3, "flag": "red"},
+    {"player_id": "NF003", "position": "FB", "sessions": 3, "total_distance_km": 21.9, "hsr_m": 2010, "sprint_m": 690, "delta_pct": 16.2, "flag": "amber"},
+    {"player_id": "NF001", "position": "CB", "sessions": 3, "total_distance_km": 17.5, "hsr_m": 1120, "sprint_m": 410, "delta_pct": 3.1, "flag": "none"},
+    {"player_id": "NF007", "position": "GK", "sessions": 3, "total_distance_km": 9.2, "hsr_m": 210, "sprint_m": 80, "delta_pct": -2.4, "flag": "none"}
+  ],
+  "generated_at": "2026-04-26T19:41:00+10:00"
+}
