@@ -89,20 +89,22 @@ You are filtering on max_speed_ms being null instead of just flagging it - pleas
 python clean_gps.py
 ```
 
-You should see a summary print out. Something like:
+You should see a summary print out. Something along these lines:
 
 ```
-Read: 347 rows from ../data/gps_training_messy.csv
-Dropped: 2 duplicate rows
-Dropped: 3 implausible total_distance_m values (>18000m):
-  - NF024 on 2026-04-22 (MD-3 high intensity): 30682.5m
-  - NF047 on 2026-04-24 (MD-1 activation): 21199.8m
-  - NF003 on 2026-04-20 (Recovery): 24401.6m
-Dropped: 2 empty rows
-Wrote: 340 rows to ../data/gps_training_clean.csv
+Rows read          : 144
+Empty rows dropped : 2
+Rows dropped       : 4
+  [duplicate row]  NF006  match_+_1_recovery  2026-04-20
+  [total_distance_m > 18000]  NF016  md-1_activation       2026-04-24  (value: 18698.56)
+  [total_distance_m > 18000]  NF051  md-3_high_intensity   2026-04-22  (value: 35467.52)
+  [max_speed_ms > 12.0]       NF045  md-1_activation       2026-04-24  (value: 14.8)
+Rows written: 138
 ```
 
-That is a good tool. It tells you exactly what happened.
+That is a good tool. It tells you exactly what happened and why.
+
+The exact row count will sit around 138 give or take one or two, depending on how you and Claude agreed to handle edge cases. In particular: Claude will almost certainly spot that NF045's `max_speed_ms` of 14.8 m/s is physiologically implausible (~53 km/h) and ask you what to do with it. The rule block above only covers *missing* max_speed_ms, not implausible values, so this is an open question Claude needs an answer to. "Drop and log" is what produces the output shown above. "Null it and keep the row" would leave you at 139 rows written. Either answer is defensible. Answering nothing is not.
 
 ## Step 5: verify
 
